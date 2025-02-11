@@ -18,3 +18,11 @@ function applyDiscount(products, discountRate) {
     ))
 };
 console.log(applyDiscount(products, 0.1));
+
+// task 3
+let sales = [250, 400, 150, 900, 1200];
+
+function calculateTotalRevenue(sales) {
+    return sales.reduce((calculateTotalRevenue, sales) => total+sales,0)
+}
+console.log(`Total Rev. 2024: $${calculateTotalRevenue(sales)}`)
