@@ -26,3 +26,10 @@ function calculateTotalRevenue(sales) {
     return sales.reduce((calculateTotalRevenue, sales) => total+sales,0)
 }
 console.log(`Total Rev. 2024: $${calculateTotalRevenue(sales)}`)
+
+// task 4
+let employee = {name:"John Doe", Salary: 50000, psotion: "Manager"};
+function updateSalary(employee, percentageIncrease) {
+    return employee.Salary += employee.Salary * percentageIncrease;
+}
+console.log(updateSalary(employee, 0.1));
